@@ -20,7 +20,7 @@ ${v.videoCount} video
   m.reply(teks)
 }
 handler.help = ['', 'earch'].map(v => 'yts' + v + ' <pencarian>')
-handler.tags = ['tools']
+handler.tags = ['downloader']
 handler.command = /^yts(earch)?$/i
 
 module.exports = handler
